@@ -1,7 +1,0 @@
-# Problem: Simple Array Sum
-# Language: language
-# Submitted: 2025-11-01T20:53:43.111Z
-# HackerRank URL: https://www.hackerrank.com/challenges/simple-array-sum/problem
-# Auto-synced by HackPush
-
-12345678910111213141516171819202122232425262728#!/bin/python3import mathimport osimport randomimport reimport sys## Complete the 'simpleArraySum' function below.## The function is expected to return an INTEGER.# The function accepts INTEGER_ARRAY ar as parameter.#def simpleArraySum(ar):    # Write your code here    return sum(ar)if __name__ == '__main__':    fptr = open(os.environ['OUTPUT_PATH'], 'w')    ar_count = int(input().strip())    ar = list(map(int, input().rstrip().split()))    result = simpleArraySum(ar)
