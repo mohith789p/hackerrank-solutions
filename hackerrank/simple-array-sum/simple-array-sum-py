@@ -1,35 +1,26 @@
 """
 Problem: Simple Array Sum
 Language: python3
-Submitted: 2025-11-01T21:14:44.966Z
+Submitted: 2025-11-01T21:20:52.312Z
 HackerRank URL: https://www.hackerrank.com/challenges/simple-array-sum/problem
 Auto-synced by HackPush
 """
 
-import randomimport random
-import reimport re
-import sysimport sys
-
-##
-# Complete the 'simpleArraySum' function below.# Complete the 'simpleArraySum' function below.
-##
-# The function is expected to return an INTEGER.# The function is expected to return an INTEGER.
-# The function accepts INTEGER_ARRAY ar as parameter.# The function accepts INTEGER_ARRAY ar as parameter.
-##
-
-def simpleArraySum(ar):def simpleArraySum(ar):
-    # Write your code here    # Write your code here
-    return sum(ar)    return sum(ar)
-
-if __name__ == '__main__':if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')    fptr = open(os.environ['OUTPUT_PATH'], 'w')
-
-    ar_count = int(input().strip())    ar_count = int(input().strip())
-
-    ar = list(map(int, input().rstrip().split()))    ar = list(map(int, input().rstrip().split()))
-
-    result = simpleArraySum(ar)    result = simpleArraySum(ar)
-
-    fptr.write(str(result) + '\n')    fptr.write(str(result) + '\n')
-
-    fptr.close()    fptr.close()
+#!/bin/python3
+import math
+import os
+import random
+import re
+import sys
+#
+# Complete the 'simpleArraySum' function below.
+# The function is expected to return an INTEGER.
+# The function accepts INTEGER_ARRAY ar as parameter.
+def simpleArraySum(ar):
+# Write your code here
+return sum(ar)
+if __name__ == '__main__':
+fptr = open(os.environ['OUTPUT_PATH'], 'w')
+ar_count = int(input().strip())
+ar = list(map(int, input().rstrip().split()))
+result = simpleArraySum(ar)
