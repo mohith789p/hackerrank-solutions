@@ -1,0 +1,19 @@
+"""
+Problem: Solve Me First
+Language: python3
+Submitted: 2025-11-02T10:09:59.685Z
+HackerRank URL: https://www.hackerrank.com/challenges/solve-me-first/problem?isFullScreen=true
+Auto-synced by HackPush
+"""
+
+
+
+def solveMeFirst(a,b):
+	# Hint: Type return a+b below
+    return a.__add__(b);
+
+
+num1 = int(input())
+num2 = int(input())
+res = solveMeFirst(num1,num2)
+print(res)
