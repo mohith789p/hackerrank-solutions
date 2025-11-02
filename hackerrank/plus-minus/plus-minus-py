@@ -1,0 +1,27 @@
+"""
+Problem: Plus Minus
+Language: python3
+Submitted: 2025-11-02T05:06:07.065Z
+HackerRank URL: https://www.hackerrank.com/challenges/plus-minus/problem
+Auto-synced by HackPush
+"""
+
+import random
+import re
+import sys
+#
+# Complete the 'plusMinus' function below.
+# The function accepts INTEGER_ARRAY arr as parameter.
+def plusMinus(arr):
+    # Write your code here
+    n = len(arr)
+    count_pos = sum(1 for x in arr if x > 0)
+    count_neg = sum(1 for x in arr if x < 0)
+    count_zero = sum(1 for x in arr if x == 0)
+    print(count_pos / n)
+    print(count_neg / n)
+    print(count_zero / n)
+if __name__ == '__main__':
+    n = int(input().strip())
+    arr = list(map(int, input().rstrip().split()))
+    plusMinus(arr)
