@@ -1,24 +1,31 @@
 """
 Problem: Plus Minus
 Language: python3
-Submitted: 2025-11-02T05:33:49.364Z
-HackerRank URL: https://www.hackerrank.com/challenges/plus-minus/problem
+Submitted: 2025-11-02T09:05:45.640Z
+HackerRank URL: https://www.hackerrank.com/challenges/plus-minus/problem?isFullScreen=true
 Auto-synced by HackPush
 """
 
-System.out.println((double) count_zero / arr.size
-());
 }
+
 public class Solution {
-public static void main(String[] args) throws
-IOException {
-BufferedReader bufferedReader = new BufferedReader
-(new InputStreamReader(System.in));
-int n = Integer.parseInt(bufferedReader.readLine
-().trim());
-List<Integer> arr = Stream.of(bufferedReader.
-readLine().replaceAll("\\s+$", "").split(" "))
-.map(Integer::parseInt)
-.collect(toList());
-Result.plusMinus(arr);
-bufferedReader.close();
+    public static void main(String[] args)
+    throws IOException {
+        BufferedReader bufferedReader = new
+        BufferedReader(new InputStreamReader
+        (System.in));
+
+        int n = Integer.parseInt
+        (bufferedReader.readLine().trim());
+
+        List<Integer> arr = Stream.of
+        (bufferedReader.readLine().
+        replaceAll("\\s+$", "").split(" "))
+            .map(Integer::parseInt)
+            .collect(toList());
+
+        Result.plusMinus(arr);
+
+        bufferedReader.close();
+    }
+}
