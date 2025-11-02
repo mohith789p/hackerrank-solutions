@@ -1,7 +1,7 @@
 """
 Problem: Plus Minus
 Language: python3
-Submitted: 2025-11-02T05:27:06.708Z
+Submitted: 2025-11-02T05:33:49.364Z
 HackerRank URL: https://www.hackerrank.com/challenges/plus-minus/problem
 Auto-synced by HackPush
 """
@@ -14,8 +14,8 @@ public static void main(String[] args) throws
 IOException {
 BufferedReader bufferedReader = new BufferedReader
 (new InputStreamReader(System.in));
-int n = Integer.parseInt(bufferedReader.readLine().
-trim());
+int n = Integer.parseInt(bufferedReader.readLine
+().trim());
 List<Integer> arr = Stream.of(bufferedReader.
 readLine().replaceAll("\\s+$", "").split(" "))
 .map(Integer::parseInt)
